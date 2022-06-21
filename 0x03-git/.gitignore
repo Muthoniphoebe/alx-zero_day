@@ -1,4 +1,10 @@
-uto-save-list
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
 tramp
 .\#*
 
@@ -27,13 +33,13 @@ tramp
 dist/
 
 # Flycheck
-flycheck_*.e
+flycheck_*.el
 
 # server auth directory
 /server/
 
-# projelctiles files
+# projectiles files
 .projectile
 
 # directory configuration
-.dir-locals.eli
+.dir-locals.el
